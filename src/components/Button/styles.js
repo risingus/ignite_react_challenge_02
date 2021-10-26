@@ -1,4 +1,7 @@
-button {
+import styled from 'styled-components';
+
+
+export const StyledButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -32,4 +35,4 @@ button {
     background: var(--background-button2);
     color: var(--yellow);
   }
-}
+`;
